@@ -148,7 +148,6 @@
 }
 
 .lots {
-	width: 100%;
 	margin: 180px 24px 120px;
 	background-color: #FFFFFF;
 }
@@ -166,11 +165,10 @@
 }
 
 .lots__card-list {
+	list-style: none;
 	display: flex;
 	gap: 25px;
-	flex-wrap: wrap;
 	flex-direction: row;
-	list-style: none;
 	margin: 0;
 	padding: 0;
 }
