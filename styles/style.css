@@ -13,7 +13,7 @@
 	background-color: #FFFFFF;
 }
 
-.header__links-list{
+.header__links-list {
 	display: flex;
 	flex-direction: row;
 	gap: 33px;
@@ -76,7 +76,7 @@
 	z-index: 0;
 }
 
-.overlay{
+.overlay {
 	position: absolute;
 	z-index: -1;
 	inset: 0;
@@ -98,15 +98,15 @@
 	line-height: 130%;
 }
 
-.aligned-text_left{
+.aligned-text_left {
 	text-align: left;
 }
 
-.aligned-text_center{
+.aligned-text_center {
 	text-align: center;
 }
 
-.aligned-text_right{
+.aligned-text_right {
 	text-align: right;
 }
 
@@ -188,14 +188,12 @@
 
 .card {
 	height: 100%;
-	background-size: cover;
-	background-position: center;
 	z-index: 0;
 	display: flex;
 	flex-direction: column;
 	position: relative;
 	background-size: cover;
-	background-position: center top;
+	background-position: center;
 }
 
 .card_type_film {
